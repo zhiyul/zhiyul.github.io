@@ -1,56 +1,49 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <!--
-    * Author:         BeiYuu
-    -->
-    <meta charset="utf-8" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="author" content="BieYuu" />
-    <meta name="description" content="BeiYuu's Blog" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="/css/default.css" type="text/css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
-    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
-</head>
-<body>
-
-    <div class="home-menu">
-        <div class="home-icon-con">
-            <a class="home-menu-icon" href="/">BeiYuu</a>
-            <a class="home-follow" href="#" title="Contact Me">+</a>
-        </div>
-        <div class="home-contact">
-            <a href="http://weibo.com/beiyuu/" target="_blank" style="margin-left:-5px;"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
-            <a href="http://www.douban.com/people/beiyuu/" target="_blank" style="text-align:center;"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
-            <a href="http://instagram.com/beiyuu/" target="_blank" style="text-align:right"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
-        </div>
-    </div>
-
-    {{ content }}
-
-    <!--*********************************************************-->
-    <!--****** 宝贝儿，看见这个时候，删掉下面的统计代码哦~ ******-->
-    <!--************* 再推荐下我的第一篇博客哦~~ ****************-->
-    <!--*********************************************************-->
-
-    <div class="hide">
-        <script type="text/javascript" src="http://js.tongji.linezing.com/2727758/tongji.js"></script>
-        <noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/2727758/tongji.gif"/></a></noscript>
-    </div>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    {% if page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>{{ site.name }}</title>
+    {% endif %}
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <link rel="stylesheet" href="/media/css/fontawesome.css">
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/media/css/fontawesome-ie7.css">
+    <![endif]-->
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
     <script type="text/javascript">
-        $(function(){
-            $('.home-follow').click(function(e){
-                e.preventDefault();
-
-                if($('.home-contact').is(':visible')){
-                    $('.home-contact').slideUp(100);
-                }else{
-                    $('.home-contact').slideDown(100);
-                }
-            });
-        })
+      hljs.initHighlightingOnLoad();
     </script>
-</body>
+  </head>
+  <body>
+      <div id="main" role="main">
+        <header>
+          <div id="header">
+            <h1><a title="{{ site.name }}" class="" href="/">{{ site.name }}</a></h1>
+          </div>
+          <nav>
+            <span><a title="Archive" class="icon-list-ul" href="/archive.html"></a></span>
+            <span><a title="Tags" class="icon-tags" href="/tags.html"></a></span>
+            <span><a title="About" class="icon-user" href="/about.html"></a></span>
+            <span><a title="Gallery" class="icon-film" href="http://foto.lhzhang.com"></a></span>
+            <span><a title="Blogroll" class="icon-link" href="/links.html"></a></span>
+            <span><a title="Subscribe" class="icon-rss" href="/atom.xml"></a></span>
+          </nav>
+        </header>
+        <div id="content">
+        {{ content }}
+        </div>
+        <footer>
+          <div>
+            &copy; 2006 ~ 2013 wayne | powered by jekyll | themed by <a href="http://lhzhang.com" title="sext vi">sext vi</a> | fork <a href="https://github.com/waynezhang/blog" title="fork me">me</a>
+          </div>
+        </footer>
+      </div> <!-- main -->
+  </body>
 </html>

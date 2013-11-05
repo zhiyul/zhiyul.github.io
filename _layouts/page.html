@@ -1,7 +1,14 @@
 ---
-layout:           default
+layout: default
 ---
 
-<div id="content">
-    {{ content }}
-</div>
+<article>
+  {% if page.title %}
+  <section class="title">
+    <h2>{{ page.title }} </h2>
+  </section>
+  {% endif %}
+  <section class="post">
+  {{ content }}
+  </section>
+</article>
