@@ -47,11 +47,12 @@ hr {
     content: '--- ✄ ---';
     text-align: center; }
 
-a, header #header h1 a, article .title a, article .meta .tags a {
+
+a,header #header h1 a, article .title a, article .meta .tags a {
   text-decoration: none;
-  color: #bb2222; }
+  color: #555; }
   a:hover, header #header h1 a:hover, article .title a:hover, article .meta .tags a:hover {
-    color: #dd1144; }
+    color: #00a6de; }
 
 blockquote, pre code {
   background-color: #f8f8f8;
@@ -63,7 +64,7 @@ blockquote, pre code {
   line-height: 1.6;
   display: block;
   overflow: auto; }
-
+blockquote a,.post p a{color: #00a6de;}
 code {
   background-color: #f8f8f8;
   padding: 2px 5px;
@@ -86,7 +87,7 @@ header {
     header #header h1 {
       font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
       header #header h1 a {
-        color: #777; }
+        color: #00a6de; }
   header nav {
     display: inline-block;
     position: relative;
@@ -113,6 +114,8 @@ ul.listing {
       padding: .2em 0 .2em 2em; }
     ul.listing li.listing-item time {
       color: #999; }
+    ul.listing li.listing-item span {
+      color: #7bbfea; }
     ul.listing li.listing-item:hover {
       background-color: #f9f9f9; }
     ul.listing li.listing-seperator {

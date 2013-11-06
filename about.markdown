@@ -5,18 +5,18 @@ layout: page
 
 a
 
-> Minimalist | Appleist | Unixer | Coder
+>  | front-end developer | musicer | dotar |
 
 who involved in 
 
-> [github](https://github.com/waynezhang)
+> [github](https://github.com/zhiyul)
 
 mail 
 
-> echo srvpqxfbyqfvpdtkbjwt | tr yxwvtsrqpkjfdb zuonmlihgeca@.
+> greenyuvip@gmail.com
 
 or follow 
 
-> [@o_lll](https://twitter.com/#!/o_lll)
+> [douban](http://www.douban.com/people/zhiyul/) | [weibo](http://weibo.com/zhiyul/profile?rightmod=1&wvr=5&mod=personinfo) | [zhihu](http://www.zhihu.com/people/liu-zhi-yu-99)
 
 to reach me
