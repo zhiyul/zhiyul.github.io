@@ -60,7 +60,7 @@ blockquote, pre code {
   border: 1px dashed #eee !important;
   border-color: #e0e0e0 !important;
   font-size: 14px;
-  font-family: "Lekton", monospace;
+  font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
   line-height: 1.6;
   display: block;
   overflow: auto; }
