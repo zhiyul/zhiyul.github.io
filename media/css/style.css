@@ -18,7 +18,7 @@
 body {
   font-size: 16px;
   font-family: "Lekton", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  color: #333; }
+  color: #555; }
 
 ol, ul {
   list-style-position: inside; }
@@ -67,6 +67,7 @@ blockquote, pre code {
 blockquote a,.post p a,.post li a{color: #00a6de;}
 code {
   background-color: #f8f8f8;
+  font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
   padding: 2px 5px;
   border: 1px dashed #e0e0e0; }
 
