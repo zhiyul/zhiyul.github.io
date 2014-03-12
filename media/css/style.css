@@ -16,7 +16,7 @@
   padding: 0; }
 
 body {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Lekton", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   color: #555; }
 
@@ -59,7 +59,7 @@ blockquote, pre code {
   padding: 0 1em;
   border: 1px dashed #eee !important;
   border-color: #e0e0e0 !important;
-  font-size: 13px;
+  font-size: 14px;
   font-family: "Lekton", monospace;
   line-height: 1.6;
   display: block;
