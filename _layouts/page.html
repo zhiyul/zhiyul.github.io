@@ -3,9 +3,13 @@ layout: default
 ---
 
 <article>
-  {% if page.title %}
+  {% if page.title == 'zhiyul' %}
   <section class="title">
-    <h2>{{ page.title }} </h2>
+    <h2>archive</h2>
+  </section>
+  {% else %}
+  <section class="title">
+    <h2>{{ page.title }}</h2>
   </section>
   {% endif %}
   <section class="post">
