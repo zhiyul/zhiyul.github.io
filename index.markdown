@@ -1,7 +1,7 @@
 ---
 title: zhiyul
-secTitle:archive
 layout: page
+secTitle:archive
 ---
 
 <ul class="listing">
