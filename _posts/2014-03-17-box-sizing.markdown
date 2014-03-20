@@ -33,6 +33,8 @@ box-sizing是css3的box属性。
 		background:#000;
 	}
 
+![example](https://farm4.staticflickr.com/3766/13283233143_430a9f44a9.jpg)
+
 很明显可以看出，w3c标准模式下的元素的内容宽高（content width和content height）等于IE传统模式下元素内容+padding+border尺寸的总和。可以用下面的公式来表述这一关系:
 
 1、W3C的标准模式box-module:
