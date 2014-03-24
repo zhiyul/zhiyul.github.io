@@ -18,6 +18,7 @@ tags:
     el.removeEventListener( el.bindFn[identifier].eventType, el.bindFn[identifier].eventFn,false);//解绑
 
 很方便。
+
  2. 对元素class的一些操作：html5提供了classList属性，利用它的方法可以方便地对元素的class进行增删改查
 
     ele.classList.add(className)       //将给定的字符串值添加到列表中
@@ -33,7 +34,7 @@ tags:
 
  3. 将生成的tipbox添加到dom中并使用toggleClass->“hide”的方式控制tipbox的显隐，在ie6-8下会出现无法获取tipbox宽高的bug，解决方式，使用ele.style.display=none/block来控制。
  4. 在浏览器标准模式下，不同浏览器页面的滚动大小获取方式不一致，chrome下document.body.scrollTop为页面滚动高度，document.documentElement.scrollTop为0，而ff下document.body.scrollTop为0，document.documentElement.scrollTop为页面滚动高度，其他浏览器中不论是那种，两者总有一个为0，所以得到正确的值将两者相加即可。
- 
+
     if(document.compatMode == 'BackCompat'){
             return {
             'scrollTop' : document.body.scrollTop,
