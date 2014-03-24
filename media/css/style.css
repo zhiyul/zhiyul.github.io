@@ -64,7 +64,8 @@ blockquote, pre code {
   line-height: 1.6;
   display: block;
   overflow: auto; }
-blockquote a,.post p a,.post li a{color: #00a6de;}
+blockquote a,.post p a{color: #00a6de;}
+.post li a{color: #333;}
 code {
   background-color: #f8f8f8;
   font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;

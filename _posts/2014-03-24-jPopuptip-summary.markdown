@@ -39,10 +39,10 @@ tags:
             'scrollTop' : document.body.scrollTop,
             'scrollLeft' : document.body.scrollLeft
             };
-        }
-        else{
-            return {
-            'scrollTop' : document.body.scrollTop+document.documentElement.scrollTop,
-            'scrollLeft' : document.body.scrollLeft+document.documentElement.scrollLeft
-            };           
-        }
+    }
+    else{
+        return {
+        'scrollTop' : document.body.scrollTop+document.documentElement.scrollTop,
+        'scrollLeft' : document.body.scrollLeft+document.documentElement.scrollLeft
+        };           
+    }
