@@ -10,10 +10,10 @@ tags:
  1. 事件绑定：可以将事件类型的事件处理函数保存在dom对象的自定义事件属性上，这样解除绑定就非常方便
 
     el.bindFn = el.bindFn || {};    //在element对象上定义一个绑定的事件的内容属性
-        el.bindFn[identifier] = {
-            eventType : type,
-            eventFn : fn
-        }；                                  
+       el.bindFn[identifier] = {
+         eventType : type,
+         eventFn : fn
+       }；                                  
     el.addEventListener(type,fn,false);    //绑定
     el.removeEventListener( el.bindFn[identifier].eventType, el.bindFn[identifier].eventFn,false);//解绑
 
@@ -36,14 +36,14 @@ tags:
  4. 在浏览器标准模式下，不同浏览器页面的滚动大小获取方式不一致，chrome下document.body.scrollTop为页面滚动高度，document.documentElement.scrollTop为0，而ff下document.body.scrollTop为0，document.documentElement.scrollTop为页面滚动高度，其他浏览器中不论是那种，两者总有一个为0，所以得到正确的值将两者相加即可。
 
     if(document.compatMode == 'BackCompat'){
-            return {
+        return {
             'scrollTop' : document.body.scrollTop,
             'scrollLeft' : document.body.scrollLeft
-            };
+        };
     }
     else{
         return {
-        'scrollTop' : document.body.scrollTop+document.documentElement.scrollTop,
-        'scrollLeft' : document.body.scrollLeft+document.documentElement.scrollLeft
+            'scrollTop' : document.body.scrollTop+document.documentElement.scrollTop,
+            'scrollLeft' : document.body.scrollLeft+document.documentElement.scrollLeft
         };           
     }
