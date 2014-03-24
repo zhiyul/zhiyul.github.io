@@ -64,7 +64,7 @@ box-sizing是css3的box属性。
 
 比如上面的例子，我们在`.box-test`中添加一条`box-sizing:border-box`，那么在符合w3c标准的浏览器中，`div.box-test`的宽度会像IE传统模式那样会被计算为**内容宽度**+**内边距**+**边框宽度**=200px。
 
-###box-sizing在实际中有哪些应用场景？
+####box-sizing在实际中有哪些应用场景？
 
 实际项目中用到box-sizing一个重要的地方就是统一form表单元素在各个浏览器的表现。有些表单元素例如`input[type="submit"]、input[type="reset"]、button、select`等等还是支持IE传统下box-module标准，而其它如`input[type=text],textarea`则遵循w3c标准。并且表单元素在各个浏览器中尺寸都有差别。如果想要统一他们的尺寸，可以采用将他们的box-sizing设置为border-box,这样在设置他们的宽高时，都会得到相同的元素尺寸。IE6,7不支持这个属性，使用hack即可。
 
