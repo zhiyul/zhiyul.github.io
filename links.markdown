@@ -3,7 +3,7 @@ title: links
 layout: page
 ---
 
-[zq的淘宝店](http://zq-panda.taobao.com)
+[威老](http://www.doctype-html.com)
 
 
 *# sort*

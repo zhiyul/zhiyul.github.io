@@ -17,6 +17,6 @@ mail
 
 or follow 
 
-> [douban](http://www.douban.com/people/zhiyul/) | [zhihu](http://www.zhihu.com/people/liu-zhi-yu-99)
+> [douban](http://www.douban.com/people/zhiyul/) | [lofter](http://zhiyul.lofter.com/)
 
 to reach me
