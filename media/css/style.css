@@ -143,8 +143,9 @@ article {
       color: #999999;
       padding: .25em; }
   article .post img {
-    max-width: 680px;
-    display: block;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: bottom;
     margin: .5em auto; }
   article .comment {
     margin: 3em 0; }
