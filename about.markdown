@@ -5,7 +5,7 @@ layout: page
 
 a
 
->  | front-end web developer | ACG fans | DOTA player |
+>  | front-end web developer | ACG fans | DOTA2 player |
 
 who involved in 
 
