@@ -5,7 +5,7 @@ layout: page
 
 a
 
->  | front-end web developer | ACG fans | DOTA2 player |
+>  || front-end web developer || ACG fans || DOTA2 player ||
 
 who involved in 
 
@@ -17,6 +17,6 @@ mail
 
 or follow 
 
-> [douban](http://www.douban.com/people/zhiyul/) | [lofter](http://zhiyul.lofter.com/)
+> [zhihu](https://www.zhihu.com/people/liu-zhi-yu-99)
 
 to reach me
