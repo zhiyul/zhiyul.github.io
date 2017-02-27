@@ -1,4 +1,0 @@
-pygments: true
-permalink: /:year/:month/:day/:title.html
-name: "[Weatherstar]"
-highlighter: rouge
