@@ -101,3 +101,9 @@ article ul li a{
 article ul li a:hover{
     color: #fff;
 }
+
+@media (max-width: 413px) {
+    article h1{
+        font-size: 25px;
+    }
+}
